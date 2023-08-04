@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.213f0a0f.css",
+    "main.js": "/static/js/main.31995bbc.js",
+    "static/media/background-florian-olivo.jpg": "/static/media/background-florian-olivo.f8b9cb6e1af9701bb75f.jpg",
+    "index.html": "/index.html",
+    "main.213f0a0f.css.map": "/static/css/main.213f0a0f.css.map",
+    "main.31995bbc.js.map": "/static/js/main.31995bbc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.213f0a0f.css",
+    "static/js/main.31995bbc.js"
+  ]
+}
