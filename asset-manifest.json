@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.213f0a0f.css",
-    "main.js": "/static/js/main.31995bbc.js",
+    "main.css": "/static/css/main.d49b006b.css",
+    "main.js": "/static/js/main.39885b2e.js",
     "static/media/background-florian-olivo.jpg": "/static/media/background-florian-olivo.f8b9cb6e1af9701bb75f.jpg",
     "index.html": "/index.html",
-    "main.213f0a0f.css.map": "/static/css/main.213f0a0f.css.map",
-    "main.31995bbc.js.map": "/static/js/main.31995bbc.js.map"
+    "main.d49b006b.css.map": "/static/css/main.d49b006b.css.map",
+    "main.39885b2e.js.map": "/static/js/main.39885b2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.213f0a0f.css",
-    "static/js/main.31995bbc.js"
+    "static/css/main.d49b006b.css",
+    "static/js/main.39885b2e.js"
   ]
 }
