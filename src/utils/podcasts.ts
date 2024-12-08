@@ -8,14 +8,6 @@ export const podcasts = [
 
   },
   {
-    name: 'Bolha DEV',
-    image:
-      'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4P-QQj4ypVZw_7Zwd2LuQKnRerASlz6NAzUoG4wtAwtuw44E',
-    href:
-      'https://podcasts.google.com/feed/aHR0cHM6Ly9ib2xoYWRldi50ZWNoL2VwaXNvZGlvcz9mb3JtYXQ9cnNz?sa=X&ved=0CAcQ9sEGahkKEwiYsf7AhsGAAxUAAAAAHQAAAAAQ6IgE',
-
-  },
-  {
     name: 'NerdCast',
     image:
       'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSmAaDtYQdyjh9jubHWcYSR0S3r0lN5lrc-r30E0_MWbZpywu70',

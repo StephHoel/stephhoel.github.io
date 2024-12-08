@@ -1,24 +1,22 @@
 import type { PropsWithChildren } from "react";
+import { Profile } from "../components/Profile";
+import { SocialMedias } from "../components/SocialMedias";
+import { ToggleButton } from "../components/ToggleButton";
 
 export default function Layout({ children }: PropsWithChildren) {
   return (
-    <>
-      <main className="mx-auto pt-12 lg:w-3/4 lg:grid">
+    <div className="min-h-screen flex flex-col">
+      <main className="mx-auto mt-20 py-10 max-w-4xl flex-grow lg:grid">
+        <Profile />
+        <ToggleButton />
+        <SocialMedias />
+
         {children}
       </main>
 
-      <footer className="flex items-center justify-center text-sm pb-4">
-        @ Steph Hoel 2023 (background por&nbsp;
-        <a
-          href="https://unsplash.com/pt-br/@florianolv"
-          target="_blank"
-          rel="noreferrer"
-          className="lg:hover:text-zinc-400"
-        >
-          Florian Olivo
-        </a>
-        )
+      <footer className="flex items-center justify-center text-sm py-4">
+        Steph Hoel © 2023
       </footer>
-    </>
+    </div>
   )
 };
