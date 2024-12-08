@@ -34,7 +34,7 @@ jobs:
       - name: Setup Jekyll Directory
         run: |
           mkdir -p _site
-          cp -R build/* _site/
+          cp -R dist/* _site/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
