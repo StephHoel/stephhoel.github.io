@@ -1,6 +1,6 @@
-import { ChildrenProps } from '../lib/Interfaces'
+import type { PropsWithChildren } from 'react'
 
-export default function CardCinza({ children }: ChildrenProps) {
+export function GrayBlock({ children }: PropsWithChildren) {
   return (
     <div className="my-6 lg:py-8 lg:px-12 sm:py-4 sm:px-8 bg-[#60686cba] rounded-[36px]">
       {children}
