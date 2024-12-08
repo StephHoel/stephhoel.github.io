@@ -4,7 +4,7 @@ import { Section } from "./Section";
 export function Recomendations() {
   return (
     <Section title={"Minhas recomendações"}>
-      <div className="font-bold text-lg justify-center flex flex-wrap lg:space-x-20 sm:gap-6">
+      <div className="font-bold text-lg justify-center flex flex-wrap gap-16 ">
         {podcasts.map(pod => (
           <a
             key={pod.name}

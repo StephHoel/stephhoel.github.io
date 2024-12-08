@@ -15,7 +15,7 @@ export default function Layout({ children }: PropsWithChildren) {
       </main>
 
       <footer className="flex items-center justify-center text-sm py-4">
-        Steph Hoel © 2023
+        Steph Hoel © 2024
       </footer>
     </div>
   )
