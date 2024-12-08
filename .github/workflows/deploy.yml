@@ -28,4 +28,4 @@ jobs:
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./build # Pasta gerada pelo build (ajuste se necessário).
+        publish_dir: ./dist # Pasta gerada pelo build (ajuste se necessário).
