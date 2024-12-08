@@ -1,14 +1,12 @@
-import { Description } from "../components/Description";
-import { Header } from "../components/Header";
-import { LinkSections } from "../components/LinkSections";
+import { Menu } from "../components/Menu";
 import { Recomendations } from "../components/Recomendations";
+import { links } from "../utils/links";
 
 export function Home() {
   return (
     <>
-      <Header />
-      <Description />
-      <LinkSections />
+      <Menu links={links} />
+
       <Recomendations />
     </>
   )

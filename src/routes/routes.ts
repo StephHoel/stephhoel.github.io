@@ -1,6 +1,12 @@
-export const routes = [
+import type { Routes } from "../lib/interfaces";
+
+export const routes: Routes[] = [
   {
     path: '/',
-    name: 'Home',
+    title: 'Home',
+  },
+  {
+    path: '/aboutme',
+    title: 'Sobre Mim',
   },
 ]

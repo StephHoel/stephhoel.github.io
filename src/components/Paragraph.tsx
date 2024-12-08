@@ -1,5 +1,5 @@
 import type { PropsWithChildren } from "react";
 
 export function Paragraph({ children }: PropsWithChildren) {
-  return <p className="flex gap-2 items-center text-[#e8e6e3de] ">{children}</p>
+  return <p className="flex gap-2 items-center text-left w-full">{children}</p>
 }

@@ -1,4 +1,4 @@
-import { EnvelopeSimple, GithubLogo, InstagramLogo, YoutubeLogo } from "@phosphor-icons/react";
+import { EnvelopeSimple, GithubLogo, InstagramLogo, LinkedinLogo, YoutubeLogo } from "@phosphor-icons/react";
 
 export const socialMedias = [
   {
@@ -25,6 +25,11 @@ export const socialMedias = [
     name: 'github',
     href: 'https://github.com/stephhoel',
     icon: <GithubLogo />
+  },
+  {
+    name: 'linkedin',
+    href: 'https://linkedin.com/in/stephhoel',
+    icon: <LinkedinLogo />
   },
   // {
   //   name: '',

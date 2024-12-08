@@ -1,13 +1,10 @@
-import { podcasts } from "../pages/utils/podcasts";
-import { GrayBlock } from "./GrayBlock";
+import { podcasts } from "../utils/podcasts";
+import { Section } from "./Section";
 
 export function Recomendations() {
   return (
-    <GrayBlock>
-      {/* recomendações */}
-      <p className="font-bold sm:text-center">Minhas recomendações</p>
-
-      <div className="font-bold text-lg justify-center flex flex-wrap lg:space-x-16 sm:gap-6">
+    <Section title={"Minhas recomendações"}>
+      <div className="font-bold text-lg justify-center flex flex-wrap lg:space-x-20 sm:gap-6">
         {podcasts.map(pod => (
           <a
             key={pod.name}
@@ -27,6 +24,6 @@ export function Recomendations() {
           </a>
         ))}
       </div>
-    </GrayBlock>
+    </Section>
   )
 }
