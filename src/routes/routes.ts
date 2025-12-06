@@ -5,8 +5,8 @@ export const routes: Routes[] = [
     path: '/',
     title: 'Home',
   },
-  {
-    path: '/aboutme',
-    title: 'Sobre Mim',
-  },
+  // {
+  //   path: '/aboutme',
+  //   title: 'Sobre Mim',
+  // },
 ]
